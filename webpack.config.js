@@ -3,14 +3,15 @@ const path = require('path');
 const config = {
 	entry: './src/index.js',
 	output:{
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve(__dirname),
 		filename: 'bundle.js'
 	},
 	module:{
 		rules: [
 			{
 				use: 'babel-loader',
-				test: /\.js$/
+				test: /\.js$/,
+				exclude: /node_modules/
 			}
 		]
 	}
