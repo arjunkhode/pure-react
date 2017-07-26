@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "node ./build/bundle.js"
+    "serve": "webpack-dev-server"
   },
   "author": "Arjun Khode",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^2.2.0-rc.0"
+    "webpack": "^2.2.0-rc.0",
+    "webpack-dev-server": "^2.2.0-rc.0"
   }
 }
