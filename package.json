@@ -1,0 +1,22 @@
+{
+  "name": "pure-react-zodiac",
+  "version": "1.0.0",
+  "description": "pure react app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Arjun Khode",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^2.2.0-rc.0"
+  }
+}
